@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XO Game</title>
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/fonticons.css">
+    <link rel="stylesheet" href="css/mycss.css">
+</head>
+<body>
+    <div class="container">
+        <div class="side" id ="sidep1">
+            <div><img src="image/playerpic.png" alt="">
+                <h1 id='Player1'>Welcome Player1</h1></div>
+            <div id="progess1"><div id="myBar1">100%</div></div>
+        </div>
+
+        <div class="body">
+            <div class="head" >
+                <i class=" fa fa-gamepad" aria-hidden="true"></i> XO Game <i class=" fa fa-gamepad" aria-hidden="true"></i>
+            </div>
+            <div class="bigsquare">
+                <button class="smallsquare" id="1" onclick="symbol(1)"></button>
+                <button class="smallsquare" id="2" onclick="symbol(2)"></button>
+                <button class="smallsquare" id="3" onclick="symbol(3)"></button>
+                <button class="smallsquare" id="4" onclick="symbol(4)"></button>
+                <button class="smallsquare" id="5" onclick="symbol(5)"></button>
+                <button class="smallsquare" id="6" onclick="symbol(6)"></button>
+                <button class="smallsquare" id="7" onclick="symbol(7)"></button>
+                <button class="smallsquare" id="8" onclick="symbol(8)"></button>
+                <button class="smallsquare" id="9" onclick="symbol(9)"></button>
+            </div>
+            <div >
+                <button class="again" id ="btplay" onclick="reset()">Start Now</button>
+            </div>
+        </div>
+
+        <div class="side" id='sidep2'>
+            <div><img src="image/playerpic.png" alt="">
+                <h1 id='Player2'>Welcome Player2</h1></div>
+                <div id="progess2">
+                    <div id="myBar2">100%</div>
+                </div>
+        </div>
+    </div>
+</body>
+<script src="js/myjs.js"></script>
+</html>

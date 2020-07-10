@@ -1,0 +1,135 @@
+*{
+    background-color: #000;
+    margin: 0;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto 800px auto;
+}
+.side{
+    background-color: #424242;
+    text-align: center;
+    height: auto;
+}
+.side>div>img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.bigsquare{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 303px;
+    height:303px;
+    margin: auto;
+}
+.smallsquare{
+    border: 1px solid #000;
+    background-color: #424242;
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    color: #f00;
+    font-size: 100px;
+    text-align: center;
+}
+.smallsquare:hover{
+    background-color: #fff;
+}
+.head{
+    color: #fff;
+    background-color: #424242;
+    font-size: 30px;
+    height: 30px;
+    margin:10px;
+    text-align: center;
+    border-bottom: #fff solid 10px;
+    border-radius: 10px;
+    animation: changecolor 2s;
+    animation-iteration-count: infinite;
+}
+.again{
+    color: #fff;
+    background-color: #424242;
+    font-size: 25px;
+    height: 50px;
+    text-align: center;
+    border-bottom: #fff solid 5px;
+    border-radius: 5px;
+    margin: 10px;
+    margin-left: 330px;
+}
+
+h1{
+    background-color: #6599FF;
+    border-bottom: #fff solid 3px;
+}
+
+.head>i{
+    animation: changecolor 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes changecolor {
+    0%   {background-color:red;}
+    25%  {background-color:yellow;}
+    50%  {background-color:blue;}
+    75%  {background-color:green;}
+    100% {background-color:red;}
+  }
+
+  #progress1{
+    width: 100%;
+    background-color: #ddd;
+  }
+  
+  #myBar1{
+    width: 100%;
+    height: 30px;
+    background-color: #4CAF50;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+  }
+
+  #progress2{
+    width: 100%;
+    background-color: #ddd;
+  }
+  
+  
+  #myBar2{
+    width: 100%;
+    height: 30px;
+    background-color: #4CAF50;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+  }
+
+  #ico1{
+      margin-top: 10%;
+      background-color:#424242 ;
+      color: #f00;
+  }
+
+  #ico2{
+    margin-top: 10%;
+    background-color:#424242 ;
+    color: #00f;
+}
+
+/*@keyframes colorprogress{
+    0%{background-color: #65892B;}
+    10%{background-color: #70872B;}
+    20%{background-color: #7B852B;}
+    30%{background-color: #83812B;}
+    40%{background-color: #81732B;}
+    50%{background-color: #7E662A;}
+    60%{background-color: #7C592A;}
+    70%{background-color: #7A4D2A;}
+    80%{background-color: #78412A;}
+    90%{background-color: #76362A;}
+    100%{background-color: #742B29;}
+}*/
